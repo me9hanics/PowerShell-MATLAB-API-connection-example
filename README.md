@@ -4,7 +4,7 @@ To run it:
 
 -Download the files
 
--Run the PowerShell file (read.ps1). I recommend 
+-Run the PowerShell file (read.ps1). I recommend running it in Visual Studio Code, or opening PowerShell, and then running it there.
 
 
 What is in the code?
