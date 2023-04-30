@@ -5,7 +5,7 @@ Example code for running a MATLAB script through Powershell, and evaluating it's
 
 -Download the files
 
--Run the PowerShell file (read.ps1). I recommend running it in Visual Studio Code, or opening PowerShell, and then running it there.
+-Run the PowerShell file (read.ps1). I recommend running it in Visual Studio Code, or opening PowerShell, and then running it there by pressing F5.
 
 
 ## What is in the code?
@@ -14,5 +14,4 @@ The PowerShell script runs this MATLAB script, receiving it's output, and parsin
 
 ### Output
 ![image](https://user-images.githubusercontent.com/82604073/235335462-a8331370-3df3-4025-aa4c-11089519946b.png)
-
 
