@@ -9,7 +9,7 @@ Write-Output "Running MATLAB script..."
 $text = matlab -batch "run('$PSScriptRoot\numbers.m')"  #Recieves everything from the MATLAB script
 Write-Output $text
 $sentence = $text[0]
-$numbers = -split $text[1] -replace "\s*" | ForEach-Object { [int]$_ } #Converts the numbers to integers
+$numbers = -split $text[1] -replace "\s*" | ForEach-Object { [int]$_ } #Casts (converts) the numbers to integers from strings
 $even = $numbers | Where-Object { $_ % 2 -eq 0 }
 $odd = $numbers | Where-Object { $_ % 2 -eq 1 } 
 Write-Output "Sentence: $sentence"
