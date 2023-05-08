@@ -10,7 +10,7 @@ Example code for running a MATLAB script through PowerShell, and evaluating it's
 
 ## What is in the code?
 The MATLAB script (numbers.m) displays (outputs) a line of text, and all one-digit numbers.
-The PowerShell script runs this MATLAB script using the <code>matlab -batch "run(...)"<\code>, gathering its output, and parsing it to the text, even and odd numbers (with the help of casting).
+The PowerShell script runs this MATLAB script using the <code>matlab -batch "run(...)"</code>, gathering its output, and parsing it to the text, even and odd numbers (with the help of casting).
 
 ### Output
 ![image](https://user-images.githubusercontent.com/82604073/235335462-a8331370-3df3-4025-aa4c-11089519946b.png)
